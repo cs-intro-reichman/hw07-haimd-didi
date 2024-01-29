@@ -16,4 +16,5 @@ public class SpellCheckerTester {
         System.out.println("Original Word: " + word);
         System.out.println("Answer: " + closest);
     }
+    
 }
