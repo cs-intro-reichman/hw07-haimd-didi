@@ -45,7 +45,6 @@ public class SpellChecker {
 	}
 
 	public static String spellChecker(String word, int threshold, String[] dictionary) {
-		// Your code goes here
 		String mostSimilar = word;
 		int minLev = threshold+1;
 		for (String w : dictionary) {
